@@ -4,8 +4,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class PersonIOUtil {
+    FileWriter writer=null;
     public void writePersons(String filename,Person person){
-        FileWriter writer=null;
+
         try{
             writer=new FileWriter(filename);
 

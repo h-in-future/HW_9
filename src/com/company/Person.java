@@ -6,9 +6,7 @@ public class Person extends PersonIOUtil{
     private Adress adress;
 
     public Person(String name, String surname, Adress adress) {
-        this.adress.setCity(adress.getCity());
-        this.adress.setStreet(adress.getStreet());
-        this.adress.setHouseNumber(adress.getHouseNumber());
+       this.adress=adress;
         this.name = name;
         this.surname = surname;
         if (this.name == null || this.surname == null || this.adress == null) {
