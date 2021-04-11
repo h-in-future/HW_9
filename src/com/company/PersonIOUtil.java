@@ -10,8 +10,8 @@ public class PersonIOUtil {
         try{
             writer=new FileWriter(filename);
 
-            Person wrote=person;
-            writer.write(String.valueOf(wrote));
+
+            writer.write(person.toString());
 
 
         }catch(IOException e){

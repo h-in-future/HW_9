@@ -12,7 +12,7 @@ public class Main {
 	Person vitya=new Person("Vitya","Milyga",malina);
         Person vova=new Person("Vova","Milyga",leningradskaya);
         Person someone=new Person("Unknowed","Buka",empty);
-        System.out.println(" Ludi: "+vitya+" "+vova+""+someone);
+        System.out.println(" Ludi:\n "+vitya+" "+vova+""+someone);
         vova.writePersons(IOConstants.FILENAME,vova);
     }
 }
